@@ -142,3 +142,4 @@ from keys import keys
 c.bindings.commands = keys
 
 c.fonts.default_family = 'FantasqueSansMono'
+c.fonts.default_size = '16px'
