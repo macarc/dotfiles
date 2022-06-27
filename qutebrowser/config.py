@@ -138,11 +138,7 @@ config.set('content.javascript.enabled', True, 'chrome://*/*')
 # Type: Bool
 config.set('content.javascript.enabled', True, 'qute://*/*')
 
-def bind(keybindings):
-    for mode, keys in keybindings.items():
-        for key, cmd in keys.items():
-            config.bind(key, cmd, mode=mode)
-
-
 from keys import keys
 c.bindings.commands = keys
+
+c.fonts.default_family = 'FantasqueSansMono'
